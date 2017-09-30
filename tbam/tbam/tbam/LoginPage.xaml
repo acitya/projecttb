@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tbam.LoginPage">
+    <ContentPage.Content>
+        <RelativeLayout BackgroundColor="Blue">
+            <StackLayout BackgroundColor="Red"
+                         Margin="10,10,10,10"
+                         Orientation="Vertical"
+                         RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+                         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.4}">
+                <Image Source="F:\temanbelajar\appswork\tbam\tbam\tbam\Resources\logo.png"
+                       Scale=".5"
+                       VerticalOptions="FillAndExpand"></Image>
+            </StackLayout>
+            
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
