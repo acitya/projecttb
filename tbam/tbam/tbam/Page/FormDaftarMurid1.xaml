@@ -4,7 +4,7 @@
              x:Class="tbam.Page.FormDaftarMurid1">
     <ContentPage.Content>
         <StackLayout>
-            
+            <Label></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
