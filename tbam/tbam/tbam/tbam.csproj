@@ -78,7 +78,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="colors_light_blue_cyan.xml" />
     <Content Include="Page\logo.png" />
     <Content Include="Page\top-logo-blue.png" />
     <Content Include="Page\top-logo-white.png" />

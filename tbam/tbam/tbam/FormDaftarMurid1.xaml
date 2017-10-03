@@ -2,23 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="tbam.Page.FormDaftarMurid1"
-             BackgroundColor="DeepSkyBlue">
+             BackgroundColor="#FFFFFF">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout >
-                <Image Source="C:\Users\ASUS\Source\Repos\projecttb\tbam\tbam\tbam\Page\top-logo-white.png"
-                       Scale=".6"></Image>
+            <StackLayout>
+                <Grid>
+                    <Image Source="C:\Users\ASUS\source\repos\projecttb\tbam\tbam\tbam\Page\logo.png"
+                       Scale=".5"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand">
+                        
+                    </Image>
+                </Grid>
             </StackLayout>
             <Entry Placeholder="Nama"
-                   PlaceholderColor="White"></Entry>
+                   PlaceholderColor="#212121"></Entry>
             <Entry Placeholder="Alamat"
-                   PlaceholderColor="White"></Entry>
+                   PlaceholderColor="#212121"></Entry>
             <Entry Placeholder="Email"
-                   PlaceholderColor="White"></Entry>
+                   PlaceholderColor="#212121"></Entry>
             <Entry Placeholder="Nomor Telepon"
-                   PlaceholderColor="White"></Entry>
+                   PlaceholderColor="#212121"></Entry>
             <Entry Placeholder="Jenjang"
-                   PlaceholderColor="White"></Entry>
+                   PlaceholderColor="#212121"></Entry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
