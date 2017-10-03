@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tbam.Page.FormDaftarMurid1"
+             BackgroundColor="DeepSkyBlue">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout >
+                <Image Source="C:\Users\ASUS\Source\Repos\projecttb\tbam\tbam\tbam\Page\top-logo-white.png"
+                       Scale=".6"></Image>
+            </StackLayout>
+            <Entry Placeholder="Nama"
+                   PlaceholderColor="White"></Entry>
+            <Entry Placeholder="Alamat"
+                   PlaceholderColor="White"></Entry>
+            <Entry Placeholder="Email"
+                   PlaceholderColor="White"></Entry>
+            <Entry Placeholder="Nomor Telepon"
+                   PlaceholderColor="White"></Entry>
+            <Entry Placeholder="Jenjang"
+                   PlaceholderColor="White"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

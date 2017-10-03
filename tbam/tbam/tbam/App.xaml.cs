@@ -13,7 +13,7 @@ namespace tbam
         {
             InitializeComponent();
 
-            MainPage = new tbam.MainPage();
+            MainPage = new tbam.Page.FormDaftarMurid1();
         }
 
         protected override void OnStart()
